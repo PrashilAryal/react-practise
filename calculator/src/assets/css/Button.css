@@ -1,0 +1,25 @@
+.button--gray {
+  background-color: gainsboro;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+.button--gray:hover {
+  background-color: goldenrod;
+  color: white;
+  cursor: pointer;
+}
+.button--orange {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+.button--orange:hover {
+  background-color: goldenrod;
+  color: white;
+  cursor: pointer;
+}
+#large-button {
+  grid-column: 1/3;
+}
